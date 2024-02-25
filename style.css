@@ -21,8 +21,10 @@
     /* espaço entre as caixas principais */
 }
 
-@media (max-width:375px){
+@media (min-width:375px){
     .wrapper{
+     
+        
         width: 100%;
         .menu-desktop{
             display: none;
@@ -30,18 +32,30 @@
         .titulos{
             padding-top: 25px;
             font-size: 25px;
-            text-align: center;
+            
+        }
+        .adicionados{
+            width:46%;
+            height: 400px;
+            background-color: #20a6ff;
+            padding: 0px;
+      
+            
         }
         .adicionados img{
-            width: 90%;
-          
+            width:100%;
+            height: 400px;
+            
+            
         }
 
         .slider{
             margin: 5px;
             width: 800px;
-            height: 500px;
+            height: 350px;
             overflow: hidden;
+            
+            
             
             
           }
@@ -51,7 +65,7 @@
               width: 400%;
               height: 400px;
               display: flex;
-          
+                
           }
           
           .slides input{
@@ -67,8 +81,7 @@
           
           .slide img{
              
-             width: 324px;
-             
+             width: 232px;
            
              
           }
@@ -84,11 +97,11 @@
           .manual-navigation{
               position: absolute;
               width:100px;
-              margin-top: 100px;
+              margin-top: 0px;
               display: flex;
               justify-content: center;
-            
-              left: 130px;
+              left: 200px;
+              display: none;
               
               
           }
@@ -99,10 +112,12 @@
               border-radius: 10px;
               cursor: pointer;
               transition: 1s;
+              
           }
           
           .manual-btn:not(:last-child){
-              margin-right: 2px;
+              margin-right: 12px;
+              
           }
           
           .manual-btn:hover{
@@ -110,23 +125,23 @@
           }
           
           #radio1:checked ~ .first{
-              margin-left: 1%;
+              margin-left: 0%;
           }
           
           #radio2:checked ~ .first{
-              margin-left: -24.3%;
+              margin-left: -24.8%;
           }
           
           #radio3:checked ~ .first{
-              margin-left: -49.1%;
+              margin-left: -50%;
           }
           
           #radio4:checked ~ .first{
-              margin-left: -73.7%;
+              margin-left: -74.9%;
           }
           
           #radio5:checked ~ .first{
-              margin-left: -100%;
+              margin-left: -50%;
           }
           
           .navigation-auto div{
@@ -143,17 +158,18 @@
           .navigation-auto{
               position: absolute;
               width: 300px;
-              margin-top: 500px;
+              margin-top: 400px;
               display: flex;
               justify-content: center;
-              left: 30px;
+              left: 100px;
+              display: none;
              
               
               
           }
           
           .navigation-auto div:not(:last-child){
-              margin-right:2px;
+              margin-right:12px;
                 
           }
           
@@ -181,6 +197,8 @@
           .titulofilmes{
                  display: none;
           }
+          
+          
     }
    
        
