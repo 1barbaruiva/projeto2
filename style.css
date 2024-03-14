@@ -323,11 +323,11 @@ a:visited{
      width: 100%;
      padding: 0px;
   
-   
+    }
      #menu1{
         display: block;
         position:absolute;
-        width: 95%;
+        width: 36.6%;
         font-size: 35px;
         padding-top: 11px;
         padding-left: 01px;
@@ -347,13 +347,14 @@ a:visited{
         
      }   
       
-     #nav.active #menu {
+     #nav.active #menu1 {
         height: calc(35vh  - 100px);
         visibility: visible;
         overflow-y: auto;
         text-align:left;
         padding-bottom: 15px;
-
+       
+        
         
         
       }
@@ -398,6 +399,9 @@ a:visited{
         transform: rotate(-135deg);
         top: -7px;
       }
+
+
+      
 
 
 
@@ -518,8 +522,8 @@ a:visited{
               border-radius: 10px;
               cursor: pointer;
               transition: 1s;
-             display: none;
-              
+                display: none;
+             
           }
           
           .manual-btn:not(:last-child){
@@ -610,7 +614,7 @@ a:visited{
     
    
        
-}
+
 
 
 
