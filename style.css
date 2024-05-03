@@ -327,41 +327,40 @@ a:visited{
 
      #menu1{
         display: block;
-        position:absolute;
-        width: 36.6%;
-        font-size: 35px;
+        position: absolute;        
+        width: 50.6%;
+        text-align: left;
+        font-size:15px;
         padding-top: 11px;
+       
         padding-left: 01px;
-        
         margin-top: 10px;
         border-radius: 6px;
-        
-       
-        
         background: #762428;
         transition: 0.6s;
         z-index: 1000;
-        height: 0px;
         visibility: hidden;
         overflow-y: hidden;
+        line-height: 350%
+        
         
         
      }   
       
      #nav.active #menu1 {
-        height: calc(35vh  - 100px);
+        height: calc(50vh  - auto);
         visibility: visible;
         overflow-y: auto;
-        text-align:left;
-        padding-bottom: 15px;
-       
+        
+        
+        
         
         
         
       }
       #menu a {
         padding: 1rem 0;
-        margin: 0 -1rem;
+        margin: 0 -1em;
         
         border-bottom: 2px solid rgba(44, 180, 55, 0.05);
       }
@@ -380,15 +379,16 @@ a:visited{
         width: 20px;
       }
       #hamburger::after,
-      #hamburger::before {
+      #hamburger::before{ 
         content: '';
         display: block;
         width: 20px;
         height: 2px;
         background: currentColor;
         margin-top: 5px;
-        transition: 0.3s;
+        transition: 0.1s;
         position: relative;
+       
       }
       #nav.active #hamburger {
         border-top-color: transparent;
